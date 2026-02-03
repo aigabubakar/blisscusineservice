@@ -100,7 +100,8 @@
             </div>
             <div
                 class="footer-bottom d-flex align-items-center justify-content-sm-between justify-content-center flex-wrap gap-2 fs-16 text-center">
-                <p class="fs-16 text4-clr">Copyright &copy; 2025 <a href="contact.html" class="theme-clr">mozzoa</a></p>
+                  <p class="fs-16 text4-clr">Copyright©  2025 - <?= date("Y"); ?> <?= getenv('APP_NAME'); ?> All Rights Reserved <a href="" class="theme-clr">Stackhubs</a></p>
+            </p>
                 <div class="d-flex align-items-center gap-4">
                     <a href="javascript:void(0)">
                         <i class="fa-brands fa-facebook-f fs-18 text-white"></i>
@@ -119,35 +120,8 @@
         </div>
     </footer>
 
-
-    <!--<< All JS Plugins >>-->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!--<< Viewport Js >>-->
-    <script src="assets/js/viewport.jquery.js"></script>
-    <!--<< Bootstrap Js >>-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--<< Nice Select Js >>-->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!--<< Waypoints Js >>-->
-    <script src="assets/js/jquery.waypoints.js"></script>
-    <!--<< Counterup Js >>-->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!--<< Swiper Slider Js >>-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!--<< MeanMenu Js >>-->
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <!--<< Magnific Popup Js >>-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!--<< Wow Animation Js >>-->
-    <script src="assets/js/wow.min.js"></script>
-    <!--<< Main.js >>-->
-    <script src="assets/js/main.js"></script>
-
-    
-
-    
-
-        <!--Site Footer Start-->
+     
+      <!--Site Footer Start-->
         <footer class="site-footer">
             <div class="site-footer__shape-1 zoominout">
                 <img src="<?= base_url(); ?>frontend/images/shapes/site-footer-shape-1.png" alt="">
@@ -323,7 +297,32 @@
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
+     <!--<< All JS Plugins >>-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="assets/js/main.js"></script>
 
+
+
+    
     <script data-cfasync="false" src="<?= base_url(); ?>../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="<?= base_url(); ?>frontend/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="<?= base_url(); ?>frontend/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url(); ?>frontend/vendors/jarallax/jarallax.min.js"></script>
@@ -353,7 +352,13 @@
 
     <!-- template js -->
     <script src="<?= base_url(); ?>frontend/js/bcorz.js"></script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9be6ad53aebe48e7',t:'MTc2ODQ5Mzc4MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../cdn-cgi/challenge-platform/h/b/scripts/jsd/d251aa49a8a3/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9be6ad53aebe48e7',t:'MTc2ODQ5Mzc4MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../cdn-cgi/challenge-platform/h/b/scripts/jsd/d251aa49a8a3/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+
+
+
+
+
+</body>
 
 
 </html>
